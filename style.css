@@ -1,0 +1,200 @@
+
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Roboto";
+    background-color: rgb(92, 92, 92);
+}
+
+h1{
+    font-family: "Popping";
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1399px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.cabecalho{
+    background-color: #e1e4e6;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.logo{
+    width: 17%;
+}
+.marca{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 500px){
+    .cabecalho{
+        padding: 200px;
+    }
+
+    .menu ul{
+        width: 90px;
+    }
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.coluna-texto{
+    width: 60%;
+}
+.coluna-foto{
+    width: 70%;
+}
+
+.texto-titulo{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Roboto";
+    color: white;
+}
+
+.texto-corpo{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto";
+    line-height: 30px;
+    margin-top: 29px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.redes-sociais{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.botao-principal{
+    display: inline-block;
+    text-align: center;
+    padding: 30px 93px;
+    background-color: #c9c9c9;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #110637;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#campo{
+    position: absolute;
+    top: 74px;
+    right: 131px;
+    display: none;
+}
+
+#campo input{
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 5px;
+    border: 0;
+}
+
+.titulo-projeto{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.linha-seta{
+    text-align: right;
+}
+
+.linha-seta a{
+    font-size: 30px;
+    color: white;
+}
+
+.texto-contato a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#formulario-contato input,
+#formulario-contato select,
+#formulario-contato textarea{
+    display: block;
+    width: 80%;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding: 5px;
+    margin: 2px;
+}
+
+#formulario-contato button{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background: none;
+    border: 1px double white;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site pessoal</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+    crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <img src="imagens/logo.png" alt="logo" class="logo">
+            <h1 class="marca">Stratégie</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Sobre Nós</a></li>
+                    <li><a href="orcamento.html">Orçamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <main class="conteudo-principal">
+            <div class="coluna-texto">
+                <h2 class="texto-titulo">Deixe seu contato</h2>
+                <p class="texto-corpo">
+                    <a href="mailto:strategiemkt@gmail.com">strategiemkt@gmail.com
+                    <br>
+                
+                    <a href="https://api.whatsapp.com/send?5519999254334&text=Gostaria de mais informações" target="blank">
+                        <br>
+                        Whatsapp</a>
+                </p>
+                <a href="#"
+                class="botao-principal">Orçamento</a>
+        
+                </p>
+            </div>
+            <div class="coluna-foto">
+                <form id="formulario-contato">
+                    <input id="campo-nome" placeholder="Nome">
+                    <input id="campo-telefone" placeholder="Telefone">
+                    <select id="campo-assunto">
+                        <option value="Elogio">Elogio</option>
+                        <option value="Sugestão">Sugestão</option>
+                        <option value="Orçamento">Orçamento</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                    <textarea id="campo-mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <button type="submit" id="botao-enviar">Enviar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
